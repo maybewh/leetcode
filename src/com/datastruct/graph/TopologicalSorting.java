@@ -21,8 +21,8 @@ public class TopologicalSorting {
         V = v;
         for (int i = 0; i < v; i++) {
             graph.add(new ArrayList<Integer>());
-            inDegree = new int[v];
         }
+        inDegree = new int[v];
     }
 
     void addEdge(int m, int n) {
