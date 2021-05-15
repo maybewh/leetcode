@@ -33,9 +33,9 @@ public class PrefixTree_208 {
             if (node == null) {
                 node = new TreeNode();
                 tmp.next.put(arr[i], node);
-                tmp.path++;
             }
             tmp = node;
+            tmp.path++; // 此处注意：应该在后面一个节点，因为只有这个节点之前才是以这个单词为前缀
         }
         tmp.end++;
 
