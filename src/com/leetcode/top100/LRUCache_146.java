@@ -1,43 +1,52 @@
-/*
 package com.leetcode.top100;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class LRUCache_146 {
 
-    private LinkedHashMap<>
-
-    */
-/**
-     * 初始化
-     * @param capacity 初始化时，容量值
-     *//*
+    private MyLinkedHashMap<Integer, Integer> container = null;
 
     public LRUCache_146(int capacity) {
-
+        container = new MyLinkedHashMap<Integer, Integer>(capacity);
     }
-
-    */
-/**
-     * 根据key获取返回值
-     * @param key
-     * @return
-     *//*
 
     public int get(int key) {
 
+        if (container.containsKey(key)) {
+            return container.get(key);
+        }
+        return -1;
     }
-
-    */
-/**
-     * 如果关键字已存在，则变更其数据值；如果关键字不存在，则插入该组[关键字-值]。
-     * 当缓存容量达到上限时，它应该在写入新数据之前删除最久未使用的数据值，从而为新的数据值留出空间
-     * @param key 关键字
-     * @param value 值
-     *//*
 
     public void put(int key, int value) {
+        container.put(key, value);
+    }
 
+    public class MyLinkedHashMap<K, V> extends LinkedHashMap<K, V> {
+
+        private int capacity;
+        public MyLinkedHashMap(int capacity) {
+            super(capacity, 0.75f, true);
+            this.capacity = capacity;
+        }
+
+        @Override
+        protected boolean removeEldestEntry(Map.Entry eldest) {
+            return size() > capacity;
+        }
+    }
+
+    public static void main(String[] args) {
+        LRUCache_146 lRUCache = new LRUCache_146(2);
+        lRUCache.put(1, 1); // 缓存是 {1=1}
+        lRUCache.put(2, 2); // 缓存是 {1=1, 2=2}
+        System.out.println(lRUCache.get(1));   // 返回 1
+        lRUCache.put(3, 3); // 该操作会使得关键字 2 作废，缓存是 {1=1, 3=3}
+        System.out.println(lRUCache.get(2));    // 返回 -1 (未找到)
+        lRUCache.put(4, 4); // 该操作会使得关键字 1 作废，缓存是 {4=4, 3=3}
+        System.out.println(lRUCache.get(1));    // 返回 -1 (未找到)
+        System.out.println(lRUCache.get(3));   // 返回 3
+        System.out.println(lRUCache.get(4));   // 返回 4
     }
 }
-*/
