@@ -2,7 +2,7 @@ package com.leetcode.top100;
 
 import java.util.Arrays;
 
-public class NumberOfIslands_200_UnionFind {
+public class L_200_NumberOfIslands_UnionFind {
 
 
     int[] ranks = null;

@@ -3,11 +3,11 @@ package com.leetcode.top100;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class LRUCache_146 {
+public class L_146_LRUCache {
 
     private MyLinkedHashMap<Integer, Integer> container = null;
 
-    public LRUCache_146(int capacity) {
+    public L_146_LRUCache(int capacity) {
         container = new MyLinkedHashMap<Integer, Integer>(capacity);
     }
 
@@ -38,7 +38,7 @@ public class LRUCache_146 {
     }
 
     public static void main(String[] args) {
-        LRUCache_146 lRUCache = new LRUCache_146(2);
+        L_146_LRUCache lRUCache = new L_146_LRUCache(2);
         lRUCache.put(1, 1); // 缓存是 {1=1}
         lRUCache.put(2, 2); // 缓存是 {1=1, 2=2}
         System.out.println(lRUCache.get(1));   // 返回 1

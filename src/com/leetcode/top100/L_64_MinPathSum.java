@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class MinPathSum_64 {
+public class L_64_MinPathSum {
 
     /**
      * 思路：利用动态规划来完成。计算到每个节点时，路径上最小的和。由于只能向下和向右移动，所以一个点的值一定取其上面或右面一个节点最小的值。
@@ -35,7 +35,7 @@ public class MinPathSum_64 {
 
     public static void main(String[] args) {
 
-        MinPathSum_64 minPathSum_64 = new MinPathSum_64();
+        L_64_MinPathSum minPathSum_64 = new L_64_MinPathSum();
         int[][] data = new int[][]{{1,3,1}, {1,5,1}, {4,2,1}};
 //        int[][] data = new int[][]{{1,2,3}, {4,5,6}};
         int result = minPathSum_64.minPathSum(data);

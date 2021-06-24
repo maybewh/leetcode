@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class HouseRobberIII_337 {
+public class L_337_HouseRobberIII {
 
       public class TreeNode {
           int val;

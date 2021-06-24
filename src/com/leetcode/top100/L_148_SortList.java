@@ -1,8 +1,6 @@
 package com.leetcode.top100;
 
-import java.util.List;
-
-public class SortList_148 {
+public class L_148_SortList {
 
       public static class ListNode {
           int val;
@@ -116,7 +114,7 @@ public class SortList_148 {
         ListNode l4 = new ListNode(3);
         l3.next = l4;
 
-        SortList_148 sortList_148 = new SortList_148();
+        L_148_SortList sortList_148 = new L_148_SortList();
         ListNode result = sortList_148.sortList(l1);
 
         while (result != null) {

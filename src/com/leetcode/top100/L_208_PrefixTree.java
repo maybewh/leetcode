@@ -3,7 +3,7 @@ package com.leetcode.top100;
 import java.util.HashMap;
 import java.util.Map;
 
-public class PrefixTree_208 {
+public class L_208_PrefixTree {
 
     // 首先定义树节点的数据结构
     class TreeNode {
@@ -20,7 +20,7 @@ public class PrefixTree_208 {
 
     private TreeNode root; // root节点为空节点
     /** Initialize your data structure here. */
-    public PrefixTree_208() {
+    public L_208_PrefixTree() {
         root = new TreeNode();
     }
 

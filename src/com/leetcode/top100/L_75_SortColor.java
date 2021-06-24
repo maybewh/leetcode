@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class SortColor_75 {
+public class L_75_SortColor {
 
     /**
      * 使用双指针，一个指针表示0的位置，另外一个指针表示2的位置。
@@ -41,7 +41,7 @@ public class SortColor_75 {
     }
 
     public static void main(String[] args) {
-        SortColor_75 sortColor_75 = new SortColor_75();
+        L_75_SortColor sortColor_75 = new L_75_SortColor();
 //        int[] nums = {2,0,2,1,1,0};
 //        int[] nums = {2,0,1};
 //        int[] nums = {0};

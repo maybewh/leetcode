@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class JumpGame_55 {
+public class L_55_JumpGame {
 
     public boolean canJump(int[] nums) {
 
@@ -21,7 +21,7 @@ public class JumpGame_55 {
     }
 
     public static void main(String[] args) {
-        JumpGame_55 jumpGame_55 = new JumpGame_55();
+        L_55_JumpGame jumpGame_55 = new L_55_JumpGame();
         int[] nums = {2,3,1,1,4};
         boolean result = jumpGame_55.canJump(nums);
         System.out.println(result);

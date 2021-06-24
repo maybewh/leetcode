@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class MaximumProductSubarray_152 {
+public class L_152_MaximumProductSubarray {
 
     /**
      * 初步思路：暴力解法--> 动态规划
@@ -37,7 +37,7 @@ public class MaximumProductSubarray_152 {
 
     }*/
     public static void main(String[] args) {
-        MaximumProductSubarray_152 productSubarray_152 = new MaximumProductSubarray_152();
+        L_152_MaximumProductSubarray productSubarray_152 = new L_152_MaximumProductSubarray();
         int[] arr = {2,3,-2,4};
         int res = productSubarray_152.maxProduct(arr);
         System.out.println("res:" + res);

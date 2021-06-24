@@ -3,7 +3,7 @@ package com.leetcode.top100;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class MergeIntervals_56 {
+public class L_56_MergeIntervals {
 
     // 双指针
     public int[][] merge(int[][] intervals) {
@@ -58,7 +58,7 @@ public class MergeIntervals_56 {
 //        int[][] intervals = {{1,5},{0,4}};
 //        int[][] intervals = {{1,4},{0,0}};
         int[][] intervals = {{2,3},{5,5},{2,2},{3,4},{3,4}};
-        MergeIntervals_56 mergeIntervals_56 = new MergeIntervals_56();
+        L_56_MergeIntervals mergeIntervals_56 = new L_56_MergeIntervals();
         int[][] result = mergeIntervals_56.combine(intervals);
         System.out.println(result);
     }

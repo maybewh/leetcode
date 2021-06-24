@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class CourseSchedule_207 {
+public class L_207_CourseSchedule {
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
 

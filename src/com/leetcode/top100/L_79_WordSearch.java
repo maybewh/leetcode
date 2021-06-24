@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class WordSearch_79 {
+public class L_79_WordSearch {
 
     /**
      * 给定一个二维网格和一个单词，找出该单词是否存在于网格中。
@@ -98,7 +98,7 @@ public class WordSearch_79 {
 //        String word = "ABCCED";
 //        String word = "SEE";
         String word =  "baa";
-        WordSearch_79 wordSearch_79 = new WordSearch_79();
+        L_79_WordSearch wordSearch_79 = new L_79_WordSearch();
         boolean result = wordSearch_79.exist(board, word);
         System.out.println(result);
     }

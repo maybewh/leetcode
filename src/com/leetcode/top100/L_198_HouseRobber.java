@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 打家劫舍
  */
-public class HouseRobber_198 {
+public class L_198_HouseRobber {
 
     /**
      *
@@ -37,7 +37,7 @@ public class HouseRobber_198 {
     }
 
     public static void main(String[] args) {
-        HouseRobber_198 robber_198 = new HouseRobber_198();
+        L_198_HouseRobber robber_198 = new L_198_HouseRobber();
         int[] arr = {2,1,1,2};
         int res = robber_198.rob(arr);
         System.out.println(res);

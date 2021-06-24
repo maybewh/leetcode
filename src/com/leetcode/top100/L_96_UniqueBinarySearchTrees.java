@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class UniqueBinarySearchTrees_96 {
+public class L_96_UniqueBinarySearchTrees {
 
     /**
      * 思路：设f(i)为以i为根节点的二叉搜索树的个数，G(n)为n个节点的二叉搜索树的个数。那么有：
@@ -26,7 +26,7 @@ public class UniqueBinarySearchTrees_96 {
     }
 
     public static void main(String[] args) {
-        UniqueBinarySearchTrees_96 binarySearchTree = new UniqueBinarySearchTrees_96();
+        L_96_UniqueBinarySearchTrees binarySearchTree = new L_96_UniqueBinarySearchTrees();
         int result = binarySearchTree.numTrees(3);
         System.out.println(result);
     }

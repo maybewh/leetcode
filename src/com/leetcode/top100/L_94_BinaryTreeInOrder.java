@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class BinaryTreeInOrder_94 {
+public class L_94_BinaryTreeInOrder {
     
       public class TreeNode {
           int val;

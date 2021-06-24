@@ -6,7 +6,7 @@ import java.util.Stack;
  * 给一个树的根节点，将其展开成单链表，其中right子指针只想链表的下一个结点，而左子针始终为null；
  * 展开后的单链表应该与二叉树先序遍历顺序相同
  */
-public class FlattenBinaryTreeToLinkedList_114 {
+public class L_114_FlattenBinaryTreeToLinkedList {
 
     public class TreeNode {
         int val;

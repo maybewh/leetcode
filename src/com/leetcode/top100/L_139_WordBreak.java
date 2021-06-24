@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 单词分割，子问题
  */
-public class WordBreak_139 {
+public class L_139_WordBreak {
 
     public boolean wordBreak(String s, List<String> wordDict) {
 

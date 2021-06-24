@@ -1,8 +1,6 @@
 package com.leetcode.top100;
 
-import sun.reflect.generics.tree.Tree;
-
-public class ValidateBinarySearchTree_98 {
+public class L_98_ValidateBinarySearchTree {
 
     public static class TreeNode {
       int val;
@@ -77,7 +75,7 @@ public class ValidateBinarySearchTree_98 {
         root.left = new TreeNode(1);
         root.right = new TreeNode(3);
 
-        ValidateBinarySearchTree_98 binarySearchTree = new ValidateBinarySearchTree_98();
+        L_98_ValidateBinarySearchTree binarySearchTree = new L_98_ValidateBinarySearchTree();
         boolean result = binarySearchTree.isValidBST(root);
         System.out.println(result);
     }

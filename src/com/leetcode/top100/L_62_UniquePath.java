@@ -6,7 +6,7 @@ package com.leetcode.top100;
  * 到达dp[i][j]最多的路径
  * dp[i][j] = dp[i-1][j] + dp[i][j-1]
  */
-public class UniquePath_62 {
+public class L_62_UniquePath {
 
     int paths = 0;
     /**
@@ -89,7 +89,7 @@ public class UniquePath_62 {
 
     public static void main(String[] args) {
 
-        UniquePath_62 uniquePath_62 = new UniquePath_62();
+        L_62_UniquePath uniquePath_62 = new L_62_UniquePath();
         int m = 23, n = 12;
 /*        uniquePath_62.uniquePaths(m, n);
         System.out.println(uniquePath_62.paths);*/

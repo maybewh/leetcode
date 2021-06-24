@@ -3,10 +3,10 @@ package com.leetcode.top100;
 /**
  * 求TopK的问题，堆排序的时间
  */
-public class KthLargestElementInAnArray_215 {
+public class L_215_KthLargestElementInAnArray {
 
     public static void main(String[] args) {
-        KthLargestElementInAnArray_215 element = new KthLargestElementInAnArray_215();
+        L_215_KthLargestElementInAnArray element = new L_215_KthLargestElementInAnArray();
         int[] arr = {3,2,1,5,6,4};
         int k = 2;
         System.out.println(element.findKthLargest(arr, k));

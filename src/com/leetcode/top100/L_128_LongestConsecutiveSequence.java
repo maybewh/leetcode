@@ -3,11 +3,11 @@ package com.leetcode.top100;
 import java.util.*;
 
 
-public class LongestConsecutiveSequence_128 {
+public class L_128_LongestConsecutiveSequence {
 
     public static void main(String[] args) {
 
-        LongestConsecutiveSequence_128 longestConsecutiveSequence_128 = new LongestConsecutiveSequence_128();
+        L_128_LongestConsecutiveSequence longestConsecutiveSequence_128 = new L_128_LongestConsecutiveSequence();
 
         int[] nums = {100,4,200,1,3,2}; //对应结果：4
 //        int[] nums = {0,3,7,2,5,8,4,6,0,1}; //对应结果：9 注意：当有2个相同的值时，取一个即可。

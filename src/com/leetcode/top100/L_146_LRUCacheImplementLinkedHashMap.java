@@ -3,10 +3,10 @@ package com.leetcode.top100;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LRUCacheImplementLinkedHashMap_146 {
+public class L_146_LRUCacheImplementLinkedHashMap {
 
     public static void main(String[] args) {
-        LRUCacheImplementLinkedHashMap_146 lRUCache = new LRUCacheImplementLinkedHashMap_146(2);
+        L_146_LRUCacheImplementLinkedHashMap lRUCache = new L_146_LRUCacheImplementLinkedHashMap(2);
         lRUCache.put(1, 1); // 缓存是 {1=1}
         lRUCache.put(2, 2); // 缓存是 {1=1, 2=2}
         System.out.println(lRUCache.get(1));   // 返回 1
@@ -40,7 +40,7 @@ public class LRUCacheImplementLinkedHashMap_146 {
     private DLinkedNode head;
     private DLinkedNode tail;
 
-    public LRUCacheImplementLinkedHashMap_146(int capacity) {
+    public L_146_LRUCacheImplementLinkedHashMap(int capacity) {
         size = 0;
         this.capacity = capacity;
     }

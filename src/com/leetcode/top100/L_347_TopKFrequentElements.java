@@ -2,7 +2,7 @@ package com.leetcode.top100;
 
 import java.util.*;
 
-public class TopKFrequentElements_347 {
+public class L_347_TopKFrequentElements {
 
 
     public int[] topKFrequent(int[] nums, int k) {

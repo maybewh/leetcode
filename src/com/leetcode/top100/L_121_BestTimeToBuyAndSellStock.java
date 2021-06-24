@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class BestTimeToBuyAndSellStock_121 {
+public class L_121_BestTimeToBuyAndSellStock {
 
     /**
      * 自我的解答，

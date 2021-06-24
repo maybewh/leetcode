@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 根据前序遍历和中序遍历构造二叉树
  */
-public class ConstructBinaryTreeFromPreorderAndInorderTraversal_105 {
+public class L_105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
 
     public class TreeNode {
         int val;

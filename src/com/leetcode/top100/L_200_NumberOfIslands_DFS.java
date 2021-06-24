@@ -1,6 +1,6 @@
 package com.leetcode.top100;
 
-public class NumberOfIslands_200_DFS {
+public class L_200_NumberOfIslands_DFS {
 
     /**
      * 深度优先搜索

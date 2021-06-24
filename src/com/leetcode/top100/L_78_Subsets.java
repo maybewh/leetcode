@@ -3,7 +3,7 @@ package com.leetcode.top100;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subsets_78 {
+public class L_78_Subsets {
 
     /**
      * 思路：计算数组的长度，从0开始到数组的长度开始选值
@@ -64,7 +64,7 @@ public class Subsets_78 {
 
     public static void main(String[] args) {
 
-        Subsets_78 subsets_78 = new Subsets_78();
+        L_78_Subsets subsets_78 = new L_78_Subsets();
         int[] nums = {1,2,3};
         List<List<Integer>> result = subsets_78.subset(nums);
         for (int i = 0; i < result.size(); i++) {

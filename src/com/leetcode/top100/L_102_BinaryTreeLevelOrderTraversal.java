@@ -3,7 +3,7 @@ package com.leetcode.top100;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTreeLevelOrderTraversal_102 {
+public class L_102_BinaryTreeLevelOrderTraversal {
 
     public class TreeNode {
         int val;

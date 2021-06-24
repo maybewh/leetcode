@@ -6,7 +6,7 @@ package com.leetcode.top100;
  * https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?tpId=13&tqId=11208&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tab=answerKey
  *
  */
-public class LinkedListCycleII_142 {
+public class L_142_LinkedListCycleII {
     
       class ListNode {
           int val;
