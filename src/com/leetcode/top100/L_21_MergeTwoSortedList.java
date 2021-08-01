@@ -28,7 +28,7 @@ public class L_21_MergeTwoSortedList {
         ListNode tmp1Before = null;
         ListNode result = l1;
         while (tmp1 != null && tmp2 != null) {
-            if (tmp1.val <= tmp2.val) {
+            if (tmp1.val <= tmp2.val) {  // 在tmp1中找到一个数大于tmp2的数，那么在tmp1之前的位置插入tmp2即可。
                 tmp1Before = tmp1;
                 tmp1 = tmp1.next;
 
